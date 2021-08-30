@@ -14,16 +14,7 @@ public class Application {
 
 	public static void main(String[] args) throws Exception {
 		ConfigurableApplicationContext ctxt = SpringApplication.run(Application.class, args);
-		csvReader csvReader = ctxt.getBean(csvReader.class);
-		List<Product> filterProducts = csvReader.redAndFilterProductsData();
 		
-		/*
-		 * for(product p : filterProducts) 
-		 * { System.out.println();
-		 * }
-		 */
-		
-		filterProducts.forEach(System.out::println);
 		
 	}
 
