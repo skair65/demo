@@ -19,7 +19,7 @@ public class Application {
 		
 		/*
 		 * for(product p : filterProducts) 
-		 * { System.out.println(p);
+		 * { System.out.println();
 		 * }
 		 */
 		
